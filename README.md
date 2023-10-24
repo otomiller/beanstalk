@@ -31,7 +31,7 @@ tail -f /var/log/cfn-init.log
 /var/log/nginx/ = Nginx Logs
 '''
 
-# Dorectproes
+# Directories
 
 ```
 /var/app/current/ = Application Directory
