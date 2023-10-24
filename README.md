@@ -24,9 +24,22 @@ tail -f /var/log/cfn-init.log
 
 ```
 
+'''
 /var/log/eb-engine.log = Platform Logs
+'''
+'''
 /var/log/nginx/ = Nginx Logs
+'''
 
+# Dorectproes
+
+```
+/var/app/current/ = Application Directory
+```
+
+```
+/opt/elasticbeanstalk/ = Configuration Directory
+```
 ## Official Documentation
 * https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html
 * https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/platforms-linux-extend.html#platforms-linux-extend.proxy.nginx
